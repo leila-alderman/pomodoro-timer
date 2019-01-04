@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet"> 
+</head>
+<body>
+    <div id="flex-container">
+        <div class="container">
+            <h1>Pomodoro Timer</h1>
+            <div class="settings box">
+                <div class="session-number">
+                    <div class="header">
+                        Session
+                    </div>
+                    <div class="flex-options">
+                        <i class="fa fa-minus-circle" id="session-down"></i>
+                        <div class="display" id="session"></div>
+                        <i class="fa fa-plus-circle" id="session-up"></i>
+                    </div>
+                </div>
+                <div class="break-number">
+                    <div class="header">
+                        Break
+                    </div>
+                    <div class="flex-options">
+                        <i class="fa fa-minus-circle" id="break-down"></i>
+                        <div class="display" id="break"></div>
+                        <i class="fa fa-plus-circle" id="break-up"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="timer-container">
+                <div class="button-row">
+                    <i class="fa fa-play fa-3x" id="play"></i>
+                    <i class="fa fa-refresh  fa-3x" id="refresh"></i>
+                </div>
+                <h2 id="title"></h2>
+                <div id="timer"></div>
+                <div class="button-row">
+                    <i class="fa fa-pause fa-3x" id="pause"></i>
+                    <i class="fa fa-stop fa-3x" id="stop"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
